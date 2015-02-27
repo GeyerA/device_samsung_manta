@@ -20,6 +20,7 @@ BOARD_USES_GENERIC_AUDIO := true
 
 # Default values, possibly overridden by BoardConfigVendor.mk
 TARGET_BOARD_INFO_FILE := device/samsung/manta/board-info.txt
+TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/manta/bluetooth
 
 # Use the non-open-source parts, if they're present
